@@ -54,7 +54,7 @@ nav .left a {
 }
 
 nav a.active {
-  color: orangered;
+  color: blue;
   font-weight: 700;
 }
 
@@ -69,7 +69,7 @@ nav .right {
 }
 
 nav .right a {
-  background-color: orangered;
+  background-color: blue;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -97,7 +97,7 @@ nav .right a {
 .personal .card {
   border-radius: 6px;
   padding: 15px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 10, 0.25);
+  box-shadow: 0px 0px 25px blue;
 }
 
 .personal .card img {
@@ -198,8 +198,8 @@ td {
 }
 
 .btn {
-  background-color: #ec4d37;
-  border: 1px solid #ec4d37;
+  background-color: blue;
+  border: 1px solid blue;
   color: white;
   border-radius: 8px;
   padding: 10px 30px;
@@ -254,14 +254,14 @@ nav ul li a {
 }
 
 nav ul li a.list-active {
-  color: #ec4d37;
+  color: blue;
   font-weight: 700;
 }
 
 nav .right-side a {
   font-size: 15px;
   padding: 8px 20px;
-  background-color: #ec4d37;
+  background-color: blue;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -339,7 +339,7 @@ select {
   margin-top: 50px;
   padding: 8px 20px;
   font-size: 17px;
-  background: #ec4d37;
+  background: blue;
   border-radius: 8px;
   border: none;
   color: #fff;
@@ -402,7 +402,7 @@ select {
   padding: 5px 10px;
   border: 0;
   border-radius: 4px;
-  background: #ec4d37;
+  background: blue;
   color: #fff;
 }
 
