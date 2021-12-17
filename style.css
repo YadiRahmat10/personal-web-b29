@@ -12,6 +12,7 @@ body {
 .header {
   font-size: 28px;
   text-align: left;
+  margin-bottom: 10;
 }
 
 .content {
@@ -106,11 +107,14 @@ nav .right a {
 
 .personal .card h2 {
   text-align: left;
+  margin-top: 10px;
 }
 
 .personal .card p {
   text-align: justify;
   color: rgb(157, 156, 156);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 table,
@@ -137,6 +141,7 @@ td {
 /* Skill section  */
 .skill-container {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .skill-container div {
@@ -150,6 +155,7 @@ td {
 
 .skill-container div p {
   margin-right: 10px;
+  margin-top: 10;
 }
 
 .skill-container div h4 {
@@ -161,6 +167,7 @@ td {
 /* Social media section */
 .social-media-container a {
   text-decoration: none;
+  
 }
 .social-media-container img {
   width: 30px;
