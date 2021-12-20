@@ -6,6 +6,10 @@ function addBlog(event){
     let title = document.getElementById('input-blog-title').value 
     let content = document.getElementById('input-blog-content').value
     let image = document.getElementById('input-blog-image')
+    
+    if(title==""||content==""||image.files.length==0){
+        return alert("semua filed harus diisi")
+    }
 
     image = URL.createObjectURL(image.files[0]);
 
