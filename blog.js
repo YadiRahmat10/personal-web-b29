@@ -13,7 +13,7 @@ function addBlog(event){
         title: title,
         content: content,
         image: image,
-        author: 'Yadi ',
+        author: 'Yadi Rahmat',
         postAt: new Date
     }
 
